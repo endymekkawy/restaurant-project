@@ -1,0 +1,61 @@
+<head>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="JS/bootstrap.min.js">
+    <link rel="stylesheet" href="JS/jquery.slim.min.js">
+    <link rel="stylesheet" href="JS/jquery.min.js">
+    <link rel="stylesheet" href="JS/popper.min.js">
+
+</head>
+<div class="container">
+    <h2>Book your place</h2>
+    <form>
+        <fieldset class="form-group">
+            <legend>Personal Information</legend>
+
+            <div class="form-group">
+                <label for="customername">Name</label>
+                <input class="form-control" type="text" id="customername" placeholder="Full Name" />
+            </div>
+
+            <div class="form-group">
+                <label for="customeremail">Email address</label>
+                <input class="form-control" type="email" id="customeremail" aria-describedby="email" />
+            </div>
+        </fieldset>
+
+        <fieldset class="form-group">
+            <legend>Reservation Information</legend>
+
+            <div class="form-group">
+                <label for="guestsnumber">number of companions</label>
+                <input class="form-control" type="number" id="guestsnumber" />
+                <label for="no.oftables">number of tables</label>
+                <select class="form-control" id="no.oftables">
+                    <option value="1 table">1 table</option>
+                    <option value="1-5">1-5</option>
+                    <option value=">5">lounge</option>
+                    <option value="reservethewholerestaurant">reserve the whole restaurant</option>
+                </select>
+                <label for="tablelocation">table location</label>
+                <select class="form-control" id="tablelocation">
+                    <option value="front">front</option>
+                    <option value="middle">middle</option>
+                    <option value="VIP">by the sea</option>
+                    <option value="bytherestroom">back</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset class="form-group">
+            <legend>Payment Information</legend>
+            <div class="form-group">
+                <label for="creditcardnumber">Credit Card Number</label>
+                <input class="form-control" type="creditcard number" id="creditcardnumber" />
+            </div>
+        </fieldset>
+        <button class="btn btn-primary">Confirm</button>
+    </form>
+
+    <script src="JS/jquery.slim.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/popper.min.js>"></script>
+</div>

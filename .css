@@ -41,52 +41,13 @@ html {
 	height: 300px;
 	width: 100%;
   }
-
-#pageFooter div {
-	float: left;
-	width: 341px;
-	padding-top: 25px;
+  .callOut {
+	background: #b9dbe1;
+	padding: 25px;
+	margin-bottom: 25px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 0px;
+	width: 385px;
   }
-  #pageFooter div:first-child {
-	margin-left: 128px;
-  }
-  #pageFooter div h1{
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1em;
-	letter-spacing:1px;
-	color: #3c6b92;
-	text-transform: uppercase;
-	margin-bottom: 1em;
-  }
-  #pageFooter div h2{
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
-	letter-spacing:1px;
-	color: #666;
-	margin-bottom: 1em;
-  }
-  #pageFooter div p{
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1em;
-	margin-bottom: 1em;
-	color: #666;
-  }
-  #pageFooter div ul{
-	list-style: none;
-	margin: 0;
-	padding:0;
-  }
-  #pageFooter div li {
-	margin-bottom: 1em;
-  }
-  #pageFooter div li a:link, #pageFooter div li a:visited {
-	font-family: Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
-	color: #666;
-  }
-  #pageFooter div li a:hover, #pageFooter div li a:active {
-	color: #fff;
-	border: none;
-  }
-  
-  

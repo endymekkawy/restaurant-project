@@ -20,3 +20,73 @@ html {
 		margin-bottom: 20px;
 	}
 }
+
+#mainContent {
+	float: right;
+	width: 740px;
+	margin-right: 25px;
+	overflow: hidden;
+  }
+  #secondaryContent {
+	float: left;
+	margin-top: 150px;
+	width: 440px;
+	padding-left: 25px;
+  }
+  #pageFooter {
+	background: #e1d8b9;
+	clear:both;
+	overflow: auto;
+	border-top: 1px solid #757575;
+	height: 300px;
+	width: 100%;
+  }
+
+#pageFooter div {
+	float: left;
+	width: 341px;
+	padding-top: 25px;
+  }
+  #pageFooter div:first-child {
+	margin-left: 128px;
+  }
+  #pageFooter div h1{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	letter-spacing:1px;
+	color: #3c6b92;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+  }
+  #pageFooter div h2{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	letter-spacing:1px;
+	color: #666;
+	margin-bottom: 1em;
+  }
+  #pageFooter div p{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	margin-bottom: 1em;
+	color: #666;
+  }
+  #pageFooter div ul{
+	list-style: none;
+	margin: 0;
+	padding:0;
+  }
+  #pageFooter div li {
+	margin-bottom: 1em;
+  }
+  #pageFooter div li a:link, #pageFooter div li a:visited {
+	font-family: Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: #666;
+  }
+  #pageFooter div li a:hover, #pageFooter div li a:active {
+	color: #fff;
+	border: none;
+  }
+  
+  

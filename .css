@@ -33,21 +33,27 @@ html {
 	width: 440px;
 	padding-left: 25px;
   }
-  #pageFooter {
-	background: #e1d8b9;
-	clear:both;
-	overflow: auto;
-	border-top: 1px solid #757575;
-	height: 300px;
-	width: 100%;
+  
+.content-wrap {
+	max-width: 800px;
+	width: 85%;
+	margin: 0 auto;
+	padding: 60px 0;
   }
-  .callOut {
-	background: #b9dbe1;
-	padding: 25px;
-	margin-bottom: 25px;
-	border-top-left-radius: 0px;
-	border-top-right-radius: 0px;
-	border-bottom-right-radius: 20px;
-	border-bottom-left-radius: 0px;
-	width: 385px;
+  
+
+/* Contact Info
+------------------------------------*/
+footer {
+	background: #343434;
+	color: #F7FFF7;
   }
+  .contact-list {
+	list-style-type: none;
+	padding: 0;
+  }
+  .contact-list a {
+	padding: 15px;
+	display: inline-block;
+  }
+ 
